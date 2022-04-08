@@ -39,7 +39,7 @@ begin
 
 
 	with alu_control select
-		alu_out_sig <= a + b    when "0000",
+		alu_out_sig <= 	       a + b    when "0000",
 				       a nand b when "0001",
 				       a and b  when "0010",
 				       a - b    when "0101",
