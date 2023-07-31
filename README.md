@@ -1,15 +1,18 @@
 ## risc16
-processador risc16
-## requisitos
+### requisitos
 VHDL, GHDL, GTKWave, bash
-## execução
+### execução
 ```bash
 ./compile.sh
 ```
-load word, store word, add
+### sw, lw, add
 ![image](https://github.com/eduardoadf21/risc16/assets/83970615/25158d80-45e1-4493-8a60-2dc6678db104)
+## lui
+![image](https://github.com/eduardoadf21/risc16/assets/83970615/e3f7cf73-4343-4c37-a025-3bed104a3fce)
+## beq, jalr
+![image](https://github.com/eduardoadf21/risc16/assets/83970615/735fde7c-5b40-4d40-b980-f4c15dd79fcb)
+## add, addi, nandi
+![image](https://github.com/eduardoadf21/risc16/assets/83970615/09ea3af7-4253-40f5-a919-9c9ef4b04c7a)
 
-[beq_jalr.pdf](https://github.com/eduardoadf21/risc16/files/12210718/beq_jalr.pdf)
-[sw_lw_add.pdf](https://github.com/eduardoadf21/risc16/files/12210719/sw_lw_add.pdf)
-[lui.pdf](https://github.com/eduardoadf21/risc16/files/12210720/lui.pdf)
-[add_addi_nandi.pdf](https://github.com/eduardoadf21/risc16/files/12210721/add_addi_nandi.pdf)
+
+
